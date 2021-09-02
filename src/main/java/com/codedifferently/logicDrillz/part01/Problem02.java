@@ -1,3 +1,5 @@
+
+
 package com.codedifferently.logicDrillz.part01;
 
 public class Problem02 {
@@ -10,7 +12,11 @@ public class Problem02 {
      * @return
      */
     public int diff21(int n) {
-        return 0;
+    int diff = Math.abs(n-21);
+    if (n>21){
+        diff = 2*diff;
+    }
+        return diff;
     }
 
 }

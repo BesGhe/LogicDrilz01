@@ -2,6 +2,7 @@ package com.codedifferently.logicDrillz.part01;
 
 import org.junit.Assert;
 import org.junit.Test;
+import java.lang.Math;
 
 public class Problem02Test {
 

@@ -13,6 +13,10 @@ public class Problem01 {
      * @return
      */
     public boolean sleepIn(boolean weekday, boolean vacation) {
-        return false;
+        boolean response = false;
+        if (!weekday || vacation){
+            response = true;
+        }
+        return response;
     }
 }

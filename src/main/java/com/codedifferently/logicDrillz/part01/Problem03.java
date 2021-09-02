@@ -10,6 +10,10 @@ public class Problem03 {
      * @return
      */
     public boolean nearHundred(int n) {
-        return false;
+        int near = ;
+        if (90 <= n >= 110) {
+
+            return true;
+        }
     }
 }
